@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Molle:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    
+    margin: auto;
+    max-width: 1100px;
+}
+
+.mainbox
+{
+    background-color:  #330033;
+    border: 1px solid white;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.scroll{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+}
+.longscroll{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('Himalaya.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -100px;
+}
+.storytelling{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    background-image:url('story.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -142px;
+
+}
+.device{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('Device.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -150px;
+}
+.messaging{
+    background-color: rgb(226, 81, 81);
+    clip-path: polygon(100% 0,100% 36%,100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    margin-top: -54px;
+    background-image:url('punchy.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+.goal
+{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('easier.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+.searchengine{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('searchengine.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+
+.slower
+{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('slower.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+.awakard
+{
+    clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+    width: 100%;
+    height: 350px;
+    background-image:url('awakard.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin-top: -165px;
+}
+
+
+header{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.scroll{
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 4px;
+    color: #FFCCCC;
+}
+.scroll h1::first-letter{
+   
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+}
+
+.scroll h5{
+
+    letter-spacing: 6px;
+    font-size: 20px;
+    color: white;
+}
+ .visual{
+     font-size: 16px;
+     margin-top: 100px;
+     text-align: center;
+     letter-spacing: 5px;
+     color: black;
+ }
+ .longscroll h3::first-letter{
+    padding: 40px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+}
+.longscroll h2{
+    font-size: 30px;
+    margin-left: 300px;
+    
+}
+.longscroll p{
+    margin-left: 300px;
+    padding: 10px;
+}
+.storytelling h4{
+    color:white;
+    margin-top: 80px;
+    padding: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+.storytelling h4::first-letter {
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    
+}
+.storytelling p{
+    
+    margin-left: 130px;
+    font-size: 20px;
+    color:white; 
+}
+.device h4{
+    color:black;
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    padding: 55px;
+}
+.device h4::first-letter {
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    color: black;
+    
+}
+.device h3{
+    
+    font-size: 20px;
+    color: black;
+    margin-left: 130px;
+
+}
+.device p{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.messaging h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
+.messaging h3::first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    color: black;
+}
+.messaging h2{
+    font-size: 20px;
+    color: black;
+    margin-left: 130px;
+
+}
+.messaging p{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.goal h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.goal h3::first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    color: black;
+}
+.goal h2{
+    font-size: 30px;
+    color: black;
+    margin-left: 130px;
+
+}
+.goal p{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.searchengine h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.searchengine h3::first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    color: black;
+}
+.searchengine h2{
+    font-size: 30px;
+    color: black;
+    margin-left: 130px;
+
+}
+.searchengine p{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.slower h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center; 
+    padding-top: 50px;
+}
+.slower h3::first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    color: black;
+}
+.slower p{
+    margin-left: 150px;
+    margin-top: 5px; 
+}
+
+
+.awakard h3{
+    color:black;
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center; 
+    padding-top: 40px;
+}
+.awakard h3::first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+    color: black;
+   
+}
+.awakard p{
+    margin-left: 150px;
+    margin-top: 5px; 
+}
+.contentbox{
+  display: flex;
+  flex-direction: row;
+  background-color:#B2BEB5;
+  width: 100%;
+  height: 250px;
+  font-size:15px;
+  clip-path: polygon(100% 0, 100% 36%, 100% 88%, 0 100%, 0 18%);
+  margin-top: -100px;
+  
+}
+.contentbox p{
+   margin-left: 40px;
+   font-size: 18px;
+   padding-top: 45px;
+  
+}
